@@ -1,0 +1,42 @@
+:root{
+    --branco: #FFFFFF;
+    --azul: #94ADCF;
+    --preto: #000000;
+    --cinza: #E9E9E9;
+}
+
+.geral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+h1{
+    font-family: 'Nunito';
+    color: var(--azul);
+    padding: 30px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    border: 1px solid var(--azul);
+    border-radius: 16px;
+    width: 578px;
+    height: 59px;
+    justify-content: end;
+    align-items: center;
+}
+
+input{
+    border: none; 
+}
+
+img{
+    height: 30px;
+}
