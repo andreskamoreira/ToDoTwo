@@ -8,35 +8,54 @@
 .geral{
     display: flex;
     align-items: center;
-    justify-content: center;
     padding-top: 50px;
+    background-color: var(--branco);
+    width: 100%;
 }
 
 h1{
-    font-family: 'Nunito';
+    font-family: 'Nunito', sans-serif;
     color: var(--azul);
     padding: 30px;
+    background-color: var(--branco);
 }
 
 .text{
     display: flex;
     align-items: center;
+    background-color: var(--branco);
+    padding-left: 18px;
 }
 
 .info{
     display: flex;
-    border: 1px solid var(--azul);
-    border-radius: 16px;
-    width: 578px;
-    height: 59px;
+    border: 2px solid var(--cinza);
+    border-radius: 16px; 
     justify-content: end;
-    align-items: center;
+    align-items: center; 
+    background-color: var(--branco);
 }
 
 input{
     border: none; 
+    cursor: pointer;
+    width: 578px;
+    height: 59px;
+    outline: none;
+    background-color: var(--branco);
 }
 
 img{
     height: 30px;
+    background-color: var(--branco);
 }
+
+.menu{
+    padding-left: 250px;
+    background-color: var(--branco);
+}
+
+button{
+    border: none;
+    background-color: var(--branco);
+} 

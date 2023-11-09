@@ -1,0 +1,24 @@
+:root{
+    --branco: #FFFFFF;
+    --azul: #94ADCF;
+    --preto: #000000;
+    --cinza: #E9E9E9;
+}
+
+.geral{
+    background-color: var(--branco);
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    color: var(--azul);
+    font-size: 24px;
+    background-color: var(--branco);
+}
+
+.info{
+    border: 2px solid var(--cinza);
+    border-radius: 16px; 
+    background-color: var(--branco);
+    width: 449px; 
+} 
