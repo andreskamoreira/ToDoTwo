@@ -7,8 +7,10 @@ export default function Conclud () {
         <div>
             <h1>Concluídas</h1>
         </div>
-        <div className={style.info}>
-            <input type="text" />
+        <div className={style.todo}>
+                <section className={style.card}>
+                    <p>Reading</p>
+                </section>
         </div>
     </div>
     )

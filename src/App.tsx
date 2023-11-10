@@ -1,6 +1,6 @@
 import './App.css'
 import Form from './components/Form'
-import FormTwo from './components/FormTwo'
+import Pendentes from './components/Pendentes'
 import Conclud from './components/Conclud'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Form />
-      <FormTwo />
+      <Pendentes />
       <Conclud /> 
     </>
   )

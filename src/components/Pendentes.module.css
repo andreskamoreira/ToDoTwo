@@ -8,7 +8,7 @@
 h1{
     font-family: 'Nunito', sans-serif;
     color: var(--azul);
-    font-size: 24px;
+    font-size: 12px;
 }
 
 .todo{
@@ -18,11 +18,13 @@ h1{
 .card{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     border: 3px solid var(--cinza);
     color: var(--azul);
     border-radius: 15px; 
-    width: 449px;  
+    width: 50%;  
     height: 59px;
     font-family: 'Nunito', sans-serif;
+
 } 
+
