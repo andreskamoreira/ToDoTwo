@@ -9,7 +9,8 @@ export default function Conclud () {
         </div>
         <div className={style.todo}>
                 <section className={style.card}>
-                    <p>Reading</p>
+                    <input type="checkbox" className={style.scales} name="scales" checked />  
+                    <p className={style.p}>Reading</p>
                 </section>
         </div>
     </div>

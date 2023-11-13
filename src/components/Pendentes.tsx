@@ -9,15 +9,15 @@ export default function FormTwo () {
             </div>
             <div className={style.todo}>
                 <section className={style.card}>
-                    <input type="checkbox" id="scales" name="scales" />
+                    <input type="checkbox" className={style.scales} name="scales" />
                     <p>Concluir desafios Jorge</p>
                 </section>
                 <section className={style.card}>
-                    <input type="checkbox" id="scales" name="scales" />
+                    <input type="checkbox" className={style.scales} name="scales" />
                     <p>Fazer o README do meu projeto</p>
                 </section>
                 <section className={style.card}>
-                    <input type="checkbox" id="scales" name="scales" /> 
+                    <input type="checkbox" className={style.scales} name="scales" /> 
                     <p>Anotar meus aprendizados</p>
                 </section>
             </div>

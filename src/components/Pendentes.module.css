@@ -13,26 +13,26 @@ h1{
 
 .todo{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px; 
+    padding: 0 12px;
 }
 
 .card{
     display: flex;
-    align-items: center;
+    align-items: center; 
     border: 3px solid var(--cinza);
     color: var(--azul);
     border-radius: 15px; 
-    width: 400px; 
+    width: 350px; 
     height: 59px;
     font-family: 'Nunito', sans-serif;
     gap: 10px;
-    padding-left: 10px;
     font-size: 18px;
+    padding-left: 10px;
 } 
 
-#scales {
-    width: 2%;
+.scales {
+    width: 5%;
 }
 
