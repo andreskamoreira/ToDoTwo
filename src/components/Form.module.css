@@ -37,11 +37,11 @@ input{
     width: 578px;
     height: 59px;
     outline: none;
+    font-size: 20px;
 }
 
 img{
     height: 30px;
-    background-color: var(--branco);
 }
 
 .menu{
@@ -50,4 +50,10 @@ img{
 
 button{
     border: none;
+    cursor: pointer;
+    background-color: var(--branco);
 } 
+
+button:hover{
+    opacity: 1;
+}

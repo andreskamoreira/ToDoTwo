@@ -4,7 +4,6 @@ import Pendentes from './components/Pendentes'
 import Conclud from './components/Conclud'
 
 function App() {
-
   return (
     <>
       <Form />
