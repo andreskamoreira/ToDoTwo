@@ -9,6 +9,7 @@ h1{
     font-family: 'Nunito', sans-serif;
     color: var(--azul);
     font-size: 24px;
+    text-shadow: 0.1em 0.1em var(--cinza);
 }
 
 .todo{
