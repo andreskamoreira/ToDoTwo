@@ -38,6 +38,9 @@ input{
     height: 59px;
     outline: none;
     font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: var(--azul);
+    padding: 0 30px;
 }
 
 img{
