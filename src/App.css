@@ -13,8 +13,6 @@
 body{
     width: 1280px;
     height: 720px;
-    border: 1px solid var(--preto);
-    border-radius: 25px; 
     margin: auto;
     margin-top: 30px;
 }
